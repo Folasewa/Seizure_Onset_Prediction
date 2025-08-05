@@ -63,3 +63,18 @@ Preprocessing:
     Cross-validation (5-fold) and evaluation on val/test splits
 
     Evaluation metrics: Accuracy, Precision, Recall, F1, Specificity
+    
+# Model Performance Summary
+
+| Model                  | Set        | Accuracy | Precision | Recall | Specificity | F1 Score |
+| ---------------------- | ---------- | -------- | --------- | ------ | ----------- | -------- |
+| **LogisticRegression** | CV         | 0.5694   | 0.6971    | 0.4063 | —           | 0.5129   |
+|                        | Validation | 0.5912   | 0.7107    | 0.4526 | 0.7667      | 0.5531   |
+|                        | Test       | 0.5206   | 0.6080    | 0.4000 | 0.6733      | 0.4825   |
+| **RandomForest**       | CV         | 0.8165   | 0.7879    | 0.9199 | —           | 0.8486   |
+|                        | Validation | 0.8147   | 0.7926    | 0.9053 | 0.7000      | 0.8452   |
+|                        | Test       | 0.8176   | 0.7735    | 0.9526 | 0.6467      | 0.8538   |
+| **SVM**                | CV         | 0.8007   | 0.8554    | 0.7754 | —           | 0.8128   |
+|                        | Validation | 0.7735   | 0.8383    | 0.7368 | 0.8200      | 0.7843   |
+|                        | Test       | 0.7676   | 0.8101    | 0.7632 | 0.7733      | 0.7859   |
+
